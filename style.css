@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background: linear-gradient(45deg, #190361 0%, #B0F 100%);
+    font-size: 1.6rem;
+
+    display: grid;
+    place-items: center;
+    height: 100vh;
+
+}
+
+body, button, input {
+    font-family: "DM Sans", sans-serif;
+}
+
+button {
+ 
+    background: #FFFFFF;
+    cursor: pointer;
+    transition: background .3s;
+}
+
+
+
+.hide {
+    display: none;
+}
+
+main {
+    background: #FFFFFF;
+    box-shadow: 0 .2rem .4rem rgba(0, 0, 0, 0.1);
+    border-radius: .6rem;
+    padding: 4.8rem 6.4rem 6.4rem;
+
+    width: min(42.8rem, 90%);
+
+    margin-top: -12rem;
+
+    text-align: center;
+}
+
+/* screen1 */
+h1 {
+   
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+h1, p {
+    color: #34355B;
+}
+
+p {
+    
+    text-align: center;
+    font-size: 15px;
+    font-family: DM Sans;
+}
+
+.biscoitoFec {
+    margin-top: 4.8rem;
+    display: flex;
+    justify-content: center;
+    width: 26.4286rem;
+    height: 20.0rem;
+   
+}
+
+form {
+    margin-top: 4.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+input, button {
+    border: none;
+    padding: 1.6rem;
+}
+
+input {
+    background-color: #DCE2E9;
+    width: 6rem;
+    border-radius: .4rem 0 0 .4rem;
+}
+
+
+
+/*screen2*/
+h2 {
+    color: #34355B;
+    text-align: center;
+    width: 297px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;   
+    font-size: 3rem;
+    font-weight: normal;
+
+    margin-bottom: 3.3rem;
+    }
+  
+    .screen2 img {
+    margin-top: 1.7rem;
+    padding: 4.3rem 0 4.3rem 0;
+    width: 300px;
+   
+    }
+
+    .screen2 p {
+
+    margin-top: 1.7rem;
+    
+    height: 8.7rem;
+    padding: 1rem;
+    background: #E4EDF1;
+    box-shadow: 2px 2px 2px 0px rgba(85, 85, 85, 0.50);
+    align-items: center;
+    color: #000;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+    border: 1.7rem;
+
+}
+
+.screen2 button {
+
+    margin-top: 1.7rem;
+    border-radius: .4rem;
+    background: #FF9500;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background .3s;
+}
